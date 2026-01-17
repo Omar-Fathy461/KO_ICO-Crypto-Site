@@ -18,7 +18,7 @@ close.onclick = () =>{
 
 
 // countDown
-let countDownDate = new Date("Dec 31, 2024 23:59:59").getTime()
+let countDownDate = new Date("May 27, 2026 23:59:59").getTime()
 let count = setInterval(()=>{
     let dateNow = new Date().getTime();
     let dateDiff = countDownDate - dateNow;
